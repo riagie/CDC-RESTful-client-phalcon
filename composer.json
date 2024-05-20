@@ -1,0 +1,41 @@
+{
+    "name": "riagie/cdc-restful-client-phalcon",
+    "version": "0.0.4",
+    "description": "The Cloud Data Center API's RESTful application programming interfaces (API's) that enables you to access data globally service.",
+    "keywords": ["libraries", "server", "client", "automation", "api"],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ogie Nurdiana",
+            "email": "ogie.nurdiana447@gmail.com",
+            "homepage": "https://ogienurdiana.com",
+            "role": "developer"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "archive": {
+        "directory": "dist",
+        "skip-dev": false
+    },
+    "composer-runtime-api": "^2.2",
+	"minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2",
+        "riagie/libraries-logs": "^0.0.1",
+        "riagie/libraries-utils": "^0.0.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "phpunit/phpunit": "^9.5.10",
+        "symfony/var-dumper": "^5.4"
+    }
+}
