@@ -1,6 +1,6 @@
 {
     "name": "riagie/cdc-restful-client-phalcon",
-    "version": "0.0.4",
+    "version": "0.4",
     "description": "The Cloud Data Center API's RESTful application programming interfaces (API's) that enables you to access data globally service.",
     "keywords": ["libraries", "server", "client", "automation", "api"],
     "type": "project",
